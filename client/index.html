@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sirib Express</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>SIREX</h2>
+    <p>Take advantage of the different services of Sirib Express brought to you by the Provincial Government of Ilocos Norte.</p>
+
+    <div class="col-md-6">
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Register</a></li>
+        <li><a data-toggle="tab" href="#menu1">Sign In</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+            <h3>Create Account</h3>
+            <form role="form" id="clientinfo">
+                <div class="form-group">
+                    <label for="scode">Sirib School Code:</label>
+                    <input type="text" class="form-control" id="scode" name="scode" required>
+                </div>
+                <div class="form-group">
+                    <label for="uname">Username:</label>
+                    <input type="text" class="form-control" id="uname" name="uname" required>
+                </div>
+                <div class="form-group">
+                    <label for="pass">Password:</label>
+                    <input type="password" class="form-control" id="pass" name="pass" required>
+                </div>
+                <div class="form-group">
+                    <label for="fname">Full Name:</label>
+                    <input type="text" class="form-control" id="fname" name="fname" required>
+                </div>
+                <div class="form-group">
+                    <label for="cnum">Contact Number:</label>
+                    <input type="text" class="form-control" id="cnum" name="cnum">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default">
+                        Create Account
+                    </button>
+                </div>
+            </form>
+        </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>Sign In</h3>
+                <div class="form-group">
+                    <label for="luname">Username:</label>
+                    <input type="text" class="form-control" id="luname">
+                </div>
+                <div class="form-group">
+                    <label for="lpass">Password:</label>
+                    <input type="text" class="form-control" id="lpass">
+                </div>
+                <div class="form-group">
+                    <input type="Submit" class="form-control" id="submit">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        Reminders:
+        <ul>
+            <li>You may choose more than one service.</li>
+        </ul>
+    </div>
+
+</div>
+
+<!--Scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="../js/clientinfo.js"></script>
+<!--End Scripts-->
+
+</body>
+</html>
